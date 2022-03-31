@@ -1,0 +1,332 @@
+html{
+    scroll-behavior: smooth !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color:white; */
+}
+ @media only screen and (max-width:25em){
+    #input_main{
+        text-align: center;
+        height:51px;
+        font-size: 19px;
+        
+    }
+    #nav{
+        position: relative;
+    }
+    .index_cl{
+        background-color: #d74f4f;
+        
+        width: fit-content;
+    }
+    
+    #search_btn{
+        font-style: 18px    ;
+        height:51px;
+        font-size: 19px;
+        height: 100%;
+        width: 38%;
+        display: block;
+        float:right;
+        margin-right: 3px;
+        margin-top: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        position:absolute;
+        font-size: 32px;
+        /* margin-top: -27px; */
+        height: 40px;
+        display: block;
+        top: 89px;
+        left: 200px;
+        width: fit-content;
+        display: block;
+        top: 89px;
+        left: 162px;
+        
+    }
+    #btn_split:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    #search_btn:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    #break{
+        font-style: 18px    ;
+        height:51px;
+        font-size: 19px;
+    }
+    #break:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    .main_search{
+        margin-top: 20%;
+        margin-top: 168px;
+    }
+    #close_btn{
+        position:absolute;
+        font-size: 35px;
+        margin-left: 32px;
+        margin-top: 15px;
+        top:0px;
+        right:25px;
+
+        
+    }
+    #change{
+        display:inline-block;
+        margin-bottom: 1px;
+        margin-top:5px;
+        padding:10px;
+
+    }
+    #btn_change{
+        display:inline-block;
+        margin-bottom: 1px;
+        margin-top:5px;
+        padding:10px;
+
+    }
+    #main{
+        position: relative;
+    }
+    #home{
+        z-index: 99999999;
+        position: fixed;
+        right:5px;
+        bottom :62%;
+        text-decoration: none;
+        width:40px;
+        height:40px;
+        background-color:rgb(75, 194, 97);
+        text-align: center;
+        border: 2px solid rgb(142, 255, 66);
+         border-radius: 5px;
+         padding-top: 8px;
+         height:50px;
+         padding-bottom: 20px;
+    }
+    #home i {
+        margin-top: 50px;
+        font-size:30px;
+        
+    }
+    #split_group{
+        display:inline-block;
+        
+    }
+    #btn_split{
+        font-size: 20px;
+        
+        /* margin-left: 32px; */
+        margin-top: 10px;
+        /* margin-top: 15px;  */
+        /* width:40px; */
+        height:40px;
+        
+        
+    }
+    #close_btn:hover{
+        background-color: rgb(255, 44, 44);
+        color: antiquewhite;
+
+    }
+    #show_all_list{
+        
+        background-color: #5b769e;
+
+    }
+    .std{
+        padding :5px;
+        background-color:rgb(241, 168, 119);
+        border: 1px solid rgb(255, 169, 71);
+        margin-left: -40px;
+        margin-block: 50px;
+    }
+    #student{
+        list-style-type: none !important;
+
+    }
+    .std>.content{
+        margin-left: 12px;
+    }
+    #show_all_list:hover{
+        color:rgb(255, 28, 28);
+        background-color: #375e97;
+
+
+    }
+
+ }
+@media only screen and (min-width:25.0625em)and (max-width:46.1875em){
+    /* *{
+        background:rgb(255, 238, 238);
+    } */
+    #input_main{
+        text-align: center;
+        height:51px;
+        font-size: 19px;
+        
+    }
+    .index_cl{
+        background-color: #d74f4f;
+        
+        width: fit-content;
+    }
+    
+    #search_btn{
+        
+        font-style: 18px    ;
+        height:51px;
+        font-size: 19px;
+        height: 100%;
+        width: 38%;
+        display: block;
+        float:right;
+        margin-right: 3px;
+        margin-top: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        position:absolute;
+        font-size: 32px;
+        /* margin-top: -27px; */
+        height: 50px;
+        display: block;
+        top: 89px;
+        left: 200px;
+        width: fit-content;
+        display: block;
+        top: 89px;
+        left: 294px;
+        
+    }
+    #btn_split:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    #search_btn:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    #break{
+        font-style: 18px    ;
+        height:51px;
+        font-size: 19px;
+    }
+    #break:hover{
+        background:rgb(231, 97, 97);
+        color:#fff;
+        
+
+    }
+    .main_search{
+        margin-top: 20%;
+        margin-top: 168px;
+    }
+    #close_btn{
+        font-size: 40px;
+        margin-left: 32px;
+        margin-top: 15px;
+
+        
+    }
+    #change{
+        display:inline-block;
+        margin-bottom: 1px;
+        margin-top:5px;
+        padding:10px;
+
+    }
+    #btn_change{
+        display:inline-block;
+        margin-bottom: 1px;
+        margin-top:5px;
+        padding:10px;
+
+    }
+    #main{
+        position: relative;
+    }
+    #home{
+        z-index: 99999999;
+        position: fixed;
+        right:5px;
+        bottom :62%;
+        text-decoration: none;
+        width:40px;
+        height:40px;
+        background-color:rgb(75, 194, 97);
+        text-align: center;
+        border: 2px solid rgb(142, 255, 66);
+         border-radius: 5px;
+         padding-top: 8px;
+         height:50px;
+         padding-bottom: 20px;
+    }
+    #home i {
+        margin-top: 50px;
+        font-size:30px;
+        
+    }
+    #split_group{
+        display:inline-block;
+        
+    }
+    #btn_split{
+        font-size: 20px;
+        
+        /* margin-left: 32px; */
+        margin-top: 10px;
+        /* margin-top: 15px;  */
+        /* width:40px; */
+        height:65px;
+        
+        
+    }
+    #close_btn:hover{
+        background-color: rgb(255, 44, 44);
+        color: antiquewhite;
+
+    }
+    #show_all_list{
+        
+        background-color: #5b769e;
+
+    }
+    .std{
+        padding :5px;
+        background-color:rgb(241, 168, 119);
+        border: 1px solid rgb(255, 169, 71);
+        margin-left: -40px;
+        margin-block: 50px;
+    }
+    #student{
+        list-style-type: none !important;
+
+    }
+    .std>.content{
+        margin-left: 12px;
+    }
+    #show_all_list:hover{
+        color:rgb(255, 28, 28);
+        background-color: #375e97;
+
+
+    }
+    
+
+
+
+}
