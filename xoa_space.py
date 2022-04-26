@@ -58,8 +58,43 @@ def removeDoublicate(a):
 			i = i
 		else:
 			i+=1
+# 	return a
+# print(removeDoublicate(a))
+a = " 					  123  		  312312 			   123123  							  "
+dau = [' ','\n','\t']
+def xoa_dau(a):
+	i = 0
+	while i < len(a) -1:
+		if a[i] in dau and a[i+1] not in dau:
+			a = xoa_2(i,a)
+			break
+		elif a[i] in dau and a[i+1] in dau:
+			a = xoa_2(i+1,a)
 	return a
-print(removeDoublicate(a))
+
+def xoa_mid(a):
+	i = 0 
+	while i < len(a) -1:
+		if a[i] in dau and a[i+1] in dau:
+			a = xoa_2(i+1,a)
+			i = i
+		else:
+			i+=1
+	return a
+
+def xoa_cuoi(a):
+	i = len(a)-1
+	while i > 0:
+		if a[i] in dau and a[i-1] not in dau:
+			a = xoa_2(i,a)
+			break
+		elif a[i] in dau and a[i-1] in dau :
+			a = xoa_2(i-1,a)
+	return a
+def string_handled(a):
+	return xoa_cuoi(xoa_dau(xoa_mid(a)))
+print(f"'{string_handled(a)}'")
+
 
 
 
